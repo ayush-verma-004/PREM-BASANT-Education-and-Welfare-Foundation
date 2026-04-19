@@ -1,0 +1,49 @@
+export const highlights = [];
+
+export const projects = [
+    {
+        id: 1,
+        title: 'Project Shiksha',
+        category: 'Education',
+        image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        summary: 'A comprehensive program to ensure every child gets access to quality education.',
+        date: '2025-01-15',
+    },
+    {
+        id: 2,
+        title: 'Clean Water Initiative',
+        category: 'Environment',
+        image: 'https://images.unsplash.com/photo-1538300342682-cf57afb97285?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        summary: 'Installing water purifiers in rural schools and community centers.',
+        date: '2024-12-10',
+    },
+    {
+        id: 3,
+        title: 'Community Empowerment',
+        category: 'Welfare',
+        image: 'https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=80',
+        summary: 'Building strong support networks and sustainable livelihoods for rural communities.',
+        date: '2024-11-05',
+    },
+];
+
+export const team = [
+    {
+        id: 1,
+        name: 'Dr. Rajesh Kumar',
+        role: 'Founder & President',
+        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    },
+    {
+        id: 2,
+        name: 'Priya Sharma',
+        role: 'Operations Director',
+        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    },
+    {
+        id: 3,
+        name: 'Amit Singh',
+        role: 'Head of Volunteers',
+        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+    },
+];

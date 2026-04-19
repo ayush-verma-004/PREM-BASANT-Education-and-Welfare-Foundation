@@ -1,0 +1,8 @@
+{
+  "name": "prem-basant-monolith",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend && npm install --prefix ngo-backend",
+    "start": "npm start --prefix ngo-backend"
+  }
+}
